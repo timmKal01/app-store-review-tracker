@@ -1,0 +1,40 @@
+{
+    "title": "App Store Review Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "appIds": {
+            "title": "App Store app IDs",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Numeric App Store IDs, e.g. \"284882215\". Find it in the app's App Store URL: apps.apple.com/us/app/name/id284882215 -> \"284882215\". One lookup is billed per app.",
+            "prefill": ["284882215"]
+        },
+        "country": {
+            "title": "Storefront country",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Two-letter App Store storefront country code (e.g. \"us\", \"gb\", \"jp\"). Reviews are storefront-specific.",
+            "default": "us"
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "Only return reviews posted within this many days of today.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 180
+        },
+        "maxResultsPerApp": {
+            "title": "Max reviews per app",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of reviews to return per app, most recent first.",
+            "default": 50,
+            "minimum": 1,
+            "maximum": 200
+        }
+    },
+    "required": ["appIds"]
+}

@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "app-store-review-tracker",
+    "title": "App Store Review Tracker — New Reviews & Ratings",
+    "description": "Track new App Store customer reviews for any app — yours or a competitor's. Get the rating, review text, author, app version, and date the moment a new one posts. For ASO teams, product managers, and support teams watching for new feedback without checking the App Store by hand.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}
