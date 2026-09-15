@@ -8,7 +8,8 @@
             "type": "array",
             "editor": "stringList",
             "description": "Numeric App Store IDs, e.g. \"284882215\". Find it in the app's App Store URL: apps.apple.com/us/app/name/id284882215 -> \"284882215\". One lookup is billed per app.",
-            "prefill": ["284882215"]
+            "prefill": ["284882215"],
+            "default": ["284882215"]
         },
         "country": {
             "title": "Storefront country",
