@@ -1,0 +1,63 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "appId",
+                    "rating",
+                    "title",
+                    "content",
+                    "author",
+                    "appVersion",
+                    "updatedAt",
+                    "country",
+                    "reviewUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "appId": {
+                        "label": "App ID",
+                        "format": "text"
+                    },
+                    "rating": {
+                        "label": "Rating",
+                        "format": "number"
+                    },
+                    "title": {
+                        "label": "Title",
+                        "format": "text"
+                    },
+                    "content": {
+                        "label": "Content",
+                        "format": "text"
+                    },
+                    "author": {
+                        "label": "Author",
+                        "format": "text"
+                    },
+                    "appVersion": {
+                        "label": "App version",
+                        "format": "text"
+                    },
+                    "updatedAt": {
+                        "label": "Updated at",
+                        "format": "date"
+                    },
+                    "country": {
+                        "label": "Country",
+                        "format": "text"
+                    },
+                    "reviewUrl": {
+                        "label": "Review URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
