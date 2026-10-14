@@ -61,4 +61,4 @@ whether it has 0 or 200 matching reviews.
 
 ## Related products
 
-- [Website Lead Extractor](https://github.com/timmKal01/website-lead-extractor) — contact info from a company's website, if you need to reach out rather than just monitor
+- [Website Email & Phone Extractor for Lead Gen](https://apify.com/m_ctim/website-lead-extractor): contact info from a company's website, if you need to reach out rather than just monitor
