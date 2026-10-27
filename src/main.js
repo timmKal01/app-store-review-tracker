@@ -30,7 +30,7 @@ for (const appId of appIds) {
     }
 
     if (reviews.length > 0) {
-        await Actor.pushData(reviews);
+        await Actor.pushData(reviews.map((review) => ({ rowType: 'review', ...review })));
     }
     await Actor.charge({ eventName: APP_CHECKED_EVENT });
 

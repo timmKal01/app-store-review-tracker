@@ -31,6 +31,7 @@ One record per review:
 
 ```json
 {
+  "rowType": "review",
   "appId": "284882215",
   "country": "us",
   "reviewId": "14417910167",
